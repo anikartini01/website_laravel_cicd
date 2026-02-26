@@ -195,13 +195,13 @@ hover:bg-blue-400 transition">
 
                     {{-- About --}}
                     <div class="bg-white rounded-xl border shadow-sm p-6">
-                        <h3 class="text-lg font-semibold text-gray-800 mb-2">About Us</h3>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">About You</h3>
                         <p class="text-gray-600 text-sm">{{ $setting->about }}</p>
                     </div>
 
                     {{-- Tags --}}
                     <div class="bg-white rounded-xl border shadow-sm p-6">
-                        <h3 class="text-lg font-semibold text-gray-800 mb-3">Tags</h3>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-3">Ani Syantiq</h3>
                         <div class="flex flex-wrap gap-2">
                             @foreach ($tags as $tag)
                                 <a href="{{ route('tag.show', $tag->name) }}"
